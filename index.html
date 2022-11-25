@@ -69,7 +69,7 @@ nav,span.navbar-brand {
 
 
 ul,li,a.nav-link{
-  margin-right: 45px;
+  margin-right: 35px;
 
 
 }
@@ -145,7 +145,24 @@ a.card-link {
 }
 
 
+@media only screen and (max-width: 480px) {
+  .jumbotron bg-transparent text-black {
+    width: 270px;
+  }
+}
 
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .middle-section {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
+  .jumbotron bg-transparent text-black {
+    font-size: 20px;
+  }
+}
 
 </style>
 
